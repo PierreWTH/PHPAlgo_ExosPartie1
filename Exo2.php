@@ -3,7 +3,7 @@
 <p> A partir de la phrase de l’exercice 1, écrire l’instruction permettant de compter le nombre de mots 
 contenus dans celle-ci. </p>
 
-<h2> Résultat </h2>
+<h2> Résultat  exo 2</h2>
 
 <?php
 
