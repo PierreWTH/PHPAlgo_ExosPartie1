@@ -11,8 +11,8 @@ affiche à un utilisateur un rendu de monnaie en nombre de billets de 10 € et 
 
 
 
-$montantaddition = 148;
-$montantverse = 197;
+$montantaddition = 150;
+$montantverse = 200;
 $resteapayer = ($montantverse % $montantaddition);
 
 echo "Montant de l'addition : $montantaddition <br/>";
