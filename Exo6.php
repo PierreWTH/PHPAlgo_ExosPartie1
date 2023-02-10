@@ -7,6 +7,8 @@ d’articles, son prix hors taxe et un taux de TVA (exprimé en décimal. Ex : 2
 
 <?php
 
+// Calcul
+
 $prixarticle = 9.99;
 $quantite = 5;
 $tva = 0.2;

@@ -15,15 +15,21 @@ $sexe = "M";
 echo "Age : $age <br/>";
 echo "Sexe : $sexe <br/>";
 
+// Si F et entre 18 et 35 ans
+
 if ($sexe == "F" && $age >= 18 && $age <= 35)
 {
 echo "la personne est imposable";
 }
 
+// Si M et + de 20 ans
+
 elseif ($sexe == "M" && $age >= 20)
 {
 echo "La personne est imposable";
 }
+
+// Si ne corresponds a aucun des deux
 
 else
 {

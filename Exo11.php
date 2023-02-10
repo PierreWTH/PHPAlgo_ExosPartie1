@@ -17,12 +17,16 @@ Mercedes
 
 <?php
 
+// Définition du tableau
+
 $tableau = array(
     1 => "Peugeot",
     2 => "Renault",
     3 => "BMW",
     4 => "Mercedes",
 );
+
+// Fonction count() pour compter les éléments d'un tableau
 
 $nombre = count($tableau);
 

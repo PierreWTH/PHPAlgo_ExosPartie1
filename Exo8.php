@@ -13,7 +13,7 @@ Table de 8 :
 
 <?php
 
-/* Boucle for */
+// Avec une boucle for
 
 $numerotable = 8;
 $resultat = 1;
@@ -26,7 +26,7 @@ for($i = 1; $i <= 10; $i++) {
 }
 
 
-/* Boucle while */
+// Avec une boucle while
 
 $numerotable = 8;
 $resultat = 1;

@@ -10,12 +10,16 @@ Exemple : tableau ➔ Mickaël -> FRA, Virgile -> ESP, Marie-Claire -> ENG
 
 <?php
 
+// Définition du tableau associatif
+
 $tableau = array(
     "Mickael" => "Bonjour",
     "Marie-Claire" => "Hello",
     "Virgile" => "Hola",
     
 );
+
+// Boucle foreach sur le tableau
 
 
 foreach($tableau as $clef => $valeur) {

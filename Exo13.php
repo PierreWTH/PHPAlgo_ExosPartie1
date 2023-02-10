@@ -12,7 +12,11 @@ Sa moyenne générale est donc de : 11.22
 
 <?php
 
+// Définition du tableau de note
+
 $notes = array(10, 12, 8, 19, 3, 16, 11, 13, 9);
+
+// Boucle sur le tableau de note 
 
 echo "Les notes obtenues par l'élève sont ";
 foreach ($notes as $valeurs){
@@ -20,8 +24,12 @@ foreach ($notes as $valeurs){
 
 }
 
+// Calcul de la moyenne
+
 $somme = array_sum($notes);
 $diviser = count($notes);
 $moyenne = ($somme / $diviser);
 $moyennefinale = number_format($moyenne, 2);
 echo "<br/> La moyenne de l'élève est donc de : $moyennefinale";
+
+?>

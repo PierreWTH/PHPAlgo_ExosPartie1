@@ -13,7 +13,4 @@ Alice DUCHEMIN a … ans
 
 <?php
 
-class Personne
-{
-    public
-}
+// Pas a faire tout de suite

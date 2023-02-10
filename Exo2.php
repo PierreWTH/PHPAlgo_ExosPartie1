@@ -7,6 +7,8 @@ contenus dans celle-ci. </p>
 
 <?php
 
+// Compter nombre de mots = fonction str_word_count()
+
 $phrase = "Notre formation DL commence aujourd'hui";
 $nbMots = str_word_count($phrase);
 

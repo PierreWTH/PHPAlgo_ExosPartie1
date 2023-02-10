@@ -7,6 +7,8 @@
 
 <?php
 
+// Remplacer un mot = fonction str_replace("motaremplacer", "motquiremplace", $varphrase)
+
 $phrase = "Notre formation DL commence aujourd'hui.";
 $phrase = str_replace("aujourd'hui", "demain", $phrase);
 

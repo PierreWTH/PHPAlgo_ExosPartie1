@@ -11,9 +11,13 @@ Age de la personne : 33 ans 4 mois 4 jours
 
 <?php
 
+// Module Datetime pour gerer les dates
+
 $datedujour = new DateTime("2018-05-21");
 $datenaissance = new DateTime('1985-01-17');
 $interval = $datedujour->diff($datenaissance);
+
+// Différence entre les dates
 
 echo "Age de la personne : " . $interval->y . " ans, " . $interval->m." mois, ".$interval->d." jours.";
 
